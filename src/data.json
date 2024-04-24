@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Hotel Booking",
+    "description": "Book a hotel for your vacation"
+  },
+  {
+    "title": "Flight Booking",
+    "description": "Book a flight for your vacation"
+  },
+  {
+    "title": "Car Rental",
+    "description": "Rent a car for your vacation"
+  },
+  {
+    "title": "Cruise Booking",
+    "description": "Book a cruise for your vacation"
+  },
+  {
+    "title": "Tour Package",
+    "description": "Book a tour package for your vacation"
+  },
+  {
+    "title": "Restaurant Reservation",
+    "description": "Make a reservation at a restaurant for your vacation"
+  },
+  {
+    "title": "Spa Booking",
+    "description": "Book a spa appointment for your vacation"
+  },
+  {
+    "title": "Activity Booking",
+    "description": "Book activities for your vacation"
+  },
+  {
+    "title": "Travel Insurance",
+    "description": "Get travel insurance for your vacation"
+  },
+  {
+    "title": "Airport Transfer",
+    "description": "Book an airport transfer for your vacation"
+  },
+  {
+    "title": "Train Ticket",
+    "description": "Book a train ticket for your vacation"
+  },
+  {
+    "title": "Event Ticket",
+    "description": "Book tickets for events during your vacation"
+  }
+]
