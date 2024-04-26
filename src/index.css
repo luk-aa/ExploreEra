@@ -48,7 +48,7 @@ h5 {
 
 p {
   color: #252525;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 input::placeholder {

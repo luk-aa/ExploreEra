@@ -28,11 +28,11 @@ const OurServices = () => {
         >
           Stays
         </NavLink>
-        <NavLink
+        {/* <NavLink
           className={linkStyles}
         >
           Car Rental
-        </NavLink>
+        </NavLink> */}
       </nav>
       <Outlet />
     </section>

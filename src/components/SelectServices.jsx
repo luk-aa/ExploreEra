@@ -30,7 +30,7 @@ const SelectServices = ({ option, direction }) => {
           <SelectValue placeholder="City" />
         </div>
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className='bg-white'>
         <SelectItem value={option}>{option}</SelectItem>
       </SelectContent>
     </Select>

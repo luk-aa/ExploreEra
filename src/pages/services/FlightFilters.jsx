@@ -9,16 +9,16 @@ import { flightCards } from '../../data';
 
 const FlightFilters = ({ setShowFilters, setFilteredData, showFilters }) => {
   const [checkboxes, setCheckboxes] = useState(null)
-  const [activeFilter, setActiveFilter] = useState('')
+  const [activeFilter, setActiveFilter] = useState('stops')
 
-  //TAKE OFF TIME FIRST AND SECOND CITY
+  //TAKE OFF TIME from FIRST and SECOND CITY
   const [times, setTimes] = useState([12, 24])
   const [time2, setTime2] = useState([12, 24])
 
   const [hours, setHours] = useState([3, 30])
   const [price, setPrice] = useState([300, 3000])
 
-
+  // FILTERING BY CHECKBOXES 'STOPS'
   const filerIsOpen = (index) => {
     setActiveFilter((prev) => {
       if (prev.includes(index)) {
@@ -30,6 +30,7 @@ const FlightFilters = ({ setShowFilters, setFilteredData, showFilters }) => {
   };
 
 
+  //
   useEffect(() => {
     const filteredFlightCards = flightCards.filter((card) => {
 
@@ -61,7 +62,7 @@ const FlightFilters = ({ setShowFilters, setFilteredData, showFilters }) => {
 
   return (
     <div className={` w-full h-full py-10 lg:pt-0 px-[45px] lg:px-0 left-0 top-0 bg-[#fff6f0] fixed lg:static 
-    overflow-y-scroll lg:overflow-visible ${showFilters ? 'block' : 'hidden'} lg:block`}>
+    overflow-y-scroll lg:overflow-visible ${showFilters ? 'block' : 'hidden'} lg:block z-10`}>
       <button
         onClick={() => setShowFilters(false)}
         className='h-11 w-full my-7 flex items-center justify-center 
