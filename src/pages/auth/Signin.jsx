@@ -64,11 +64,11 @@ const Signin = () => {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">Email</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">Email</FormLabel>
               <FormControl>
                 <Input
                   type="email"
-                  className="border-primary outline-none"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your email"
 
                   {...field} />
@@ -82,11 +82,11 @@ const Signin = () => {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">Password</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">Password</FormLabel>
               <FormControl>
                 <Input
                   type="password"
-                  className="border-primary outline-none text-text"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your password"
                   {...field} />
               </FormControl>
@@ -94,7 +94,7 @@ const Signin = () => {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full text-white">Continue</Button>
+        <Button type="submit" className="w-full text-white h-12 text-md">Continue</Button>
       </form>
       <div className='flex flex-1 items-center justify-evenly gap-2 my-5 text-xs'>
         <span className='w-full h-[1px] bg-slate-500'></span>
@@ -102,11 +102,11 @@ const Signin = () => {
         <span className='w-full h-[1px] bg-slate-500'></span>
         <hr />
       </div>
-      <div className='flex justify-between'>
-        <img src="assets/icons/facebookAuth.png" alt="facebook-icon" width={50} height={50} />
-        <img src="assets/icons/appleAuth.png" alt="apple-icon" width={50} height={50} />
-        <img src="assets/icons/googleAuth.png" alt="google-icon" width={50} height={50} />
-        <img src="assets/icons/gmailAuth.png" alt="gmail-icon" width={50} height={50} />
+      <div className='grid  grid-cols-4 justify-items-center'>
+        <img src="assets/icons/facebookAuth.png" alt="facebook-icon" width={60} height={60} />
+        <img src="assets/icons/appleAuth.png" alt="apple-icon" width={60} height={60} />
+        <img src="assets/icons/googleAuth.png" alt="google-icon" width={60} height={60} />
+        <img src="assets/icons/gmailAuth.png" alt="gmail-icon" width={60} height={60} />
       </div>
       <div className='w-full h-[1px] my-5 bg-slate-500'></div>
       <p className='text-xs text-text'>
