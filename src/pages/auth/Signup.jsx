@@ -47,16 +47,15 @@ const Signup = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
         <FormField
-          className="border-primary"
           control={form.control}
           name="firstname"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">First name</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">First name</FormLabel>
               <FormControl>
                 <Input
                   type="text"
-                  className="border-primary outline-none"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your first name"
                   {...field} />
               </FormControl>
@@ -69,11 +68,11 @@ const Signup = () => {
           name="lastname"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">Last name</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">Last name</FormLabel>
               <FormControl>
                 <Input
                   type="text"
-                  className="border-primary outline-none"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your last name"
                   {...field} />
               </FormControl>
@@ -86,11 +85,11 @@ const Signup = () => {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">Email</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">Email</FormLabel>
               <FormControl>
                 <Input
                   type="email"
-                  className="border-primary outline-none"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your email"
 
                   {...field} />
@@ -104,11 +103,11 @@ const Signup = () => {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="ml-3 text-xs text-text opacity-70">Password</FormLabel>
+              <FormLabel className="ml-3 text-sm text-text opacity-70">Password</FormLabel>
               <FormControl>
                 <Input
                   type="password"
-                  className="border-primary outline-none text-text"
+                  className="border-primary outline-none h-12 text-md"
                   placeholder="Enter your password"
                   {...field} />
               </FormControl>
@@ -117,37 +116,22 @@ const Signup = () => {
           )}
         />
 
-        {/* <div>
-          <input
-            className='hidden'
-            ref={fileInputRef}
-            type="file"
-            name="myImage"
-            onChange={(event) => setSelectedImage(event.target.files[0])}
-          />
-          <img
-            className='rounded-full cursor-pointer object-cover w-16 h-16'
-            onClick={handleIconClick}
-            src={`${selectedImage ? URL.createObjectURL(selectedImage) : 'assets/icons/camera.png'}`}
-            alt="camera-icon"
-          />
-        </div> */}
-        <Button type="submit" className="w-full text-white">Continue</Button>
+        <Button type="submit" className="w-full text-white h-12 text-md">Continue</Button>
       </form>
       <div className='flex flex-1 items-center justify-evenly gap-2 my-5 text-xs'>
         <span className='w-full h-[1px] bg-slate-500'></span>
-        <p className='whitespace-nowrap'>Or continue with</p>
+        <p className='whitespace-nowrap text-sm'>Or continue with</p>
         <span className='w-full h-[1px] bg-slate-500'></span>
         <hr />
       </div>
       <div className='flex justify-between'>
-        <img src="assets/icons/facebookAuth.png" alt="facebook-icon" width={50} height={50} />
-        <img src="assets/icons/appleAuth.png" alt="apple-icon" width={50} height={50} />
-        <img src="assets/icons/googleAuth.png" alt="google-icon" width={50} height={50} />
-        <img src="assets/icons/gmailAuth.png" alt="gmail-icon" width={50} height={50} />
+        <img src="assets/icons/facebookAuth.png" alt="facebook-icon" width={60} height={60} />
+        <img src="assets/icons/appleAuth.png" alt="apple-icon" width={60} height={60} />
+        <img src="assets/icons/googleAuth.png" alt="google-icon" width={60} height={60} />
+        <img src="assets/icons/gmailAuth.png" alt="gmail-icon" width={60} height={60} />
       </div>
       <div className='w-full h-[1px] my-5 bg-slate-500'></div>
-      <p className='text-xs text-text'>
+      <p className='text-sm text-text'>
         By signing in or creating an account, you agree with our
         <span className='text-primary'>Terms & conditions</span> and <span className='text-primary'>Privacy policy</span>
       </p>
