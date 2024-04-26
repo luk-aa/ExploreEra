@@ -6,14 +6,14 @@ import GoToTop from './GoToTop'
 
 const Layout = () => {
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <GoToTop />
       <Header />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

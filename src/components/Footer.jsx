@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='px-[74px] lg:px-[90px] pt-10 pb-[10px] bg-secondary mt-5'>
+    <footer className='w-full px-10 lg:px-[90px] pt-10 pb-[10px] bg-secondary mt-5'>
       <section className='lg:grid lg:grid-cols-3 lg:gap-20'>
         <div>
           <h1
@@ -37,7 +37,7 @@ const Footer = () => {
             <li><h3>555111222</h3></li>
           </ul>
           <h2 className='text-[28px] font-regular mt-5'>Subscribe News</h2>
-          <form className='w-[250px] flex justify-between gap-2 border-2 rounded-[10px]
+          <form className='max-w-[250px] flex justify-between gap-2 border-2 rounded-[10px]
           border-text p-3 my-5'>
             <input
               className='outline-none bg-secondary'

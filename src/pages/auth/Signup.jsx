@@ -124,7 +124,7 @@ const Signup = () => {
         <span className='w-full h-[1px] bg-slate-500'></span>
         <hr />
       </div>
-      <div className='flex justify-between'>
+      <div className='grid  grid-cols-4 justify-items-center'>
         <img src="assets/icons/facebookAuth.png" alt="facebook-icon" width={60} height={60} />
         <img src="assets/icons/appleAuth.png" alt="apple-icon" width={60} height={60} />
         <img src="assets/icons/googleAuth.png" alt="google-icon" width={60} height={60} />

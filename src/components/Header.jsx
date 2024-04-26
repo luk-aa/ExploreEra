@@ -167,8 +167,6 @@ const Header = () => {
       {/* NAV ON LG DEVICE */}
       <nav className='hidden lg:block'>
         <ul className='flex items-center gap-6 text-xl font-normal'>
-          {/* <li><h4>Sign In</h4></li>
-          <li><h4>Sign Up</h4></li> */}
           <li>
             <NavLink
               to='/'
