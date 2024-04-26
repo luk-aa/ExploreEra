@@ -1,8 +1,23 @@
-# React + Vite
+![ExploreEra](https://github.com/luk-aa/ExploreEra/assets/86773254/1ec16268-2b3e-4efc-9cbd-26f738f71e98)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+ExploreEra is a comprehensive travel booking platform designed to simplify the process of planning and booking your next adventure. Whether you're a seasoned traveler or planning your first trip, ExploreEra provides all the tools and resources you need to explore the world with ease.
 
-Currently, two official plugins are available:
+👉 Live Demo: [Live Demo](https://explore-era-lilac.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build with
+- React js
+- Tailwind CSS
+- Shadcn/ui
+- Swiperjs
+
+## What I learned from this project
+- I enhanced my knowledge in React js and JavaSript.
+- I have learned using shadcn/ui.
+- Strengthened my knowledge in forms / User authentication.
+- I have acquired the skill of filtering data using multiple filters.
+- Strengthened my knowledge in Flexbox and Grid.
+
+##
+![ExploreEraImage](https://github.com/luk-aa/ExploreEra/assets/86773254/0a0aa16e-88d8-43b2-858d-f9f05ba29ec0)
+
