@@ -7,9 +7,9 @@ const FlightCards = ({ filteredData }) => {
       <div
         className='p-3 my-6 lg:px-16 lg:py-10 lg:mt-0 text-center bg-white rounded-lg lg:flex lg:justify-between'
         key={index}>
-        <div className='flex gap-3 lg:w-full justify-around lg:justify-between lg:items-center lg:mr-10'>
-          <div className='flex flex-col items-center gap-3 text-xs'>
-            <img className='w-8 lg:w-14' src="assets/images/gairlines.png" alt="airlinesLogo" />
+        <div className='flex gap-5 lg:w-full justify-around lg:justify-evenly lg:items-center'>
+          <div className='flex flex-col items-center gap-3 text-xs md:text-sm lg:text-base'>
+            <img className='w-8 md:w-12 lg:w-14' src="assets/images/gairlines.png" alt="airlinesLogo" />
             <span>Georgian <br className='lg:hidden block' /> Airlines</span>
           </div>
           <div className='flex flex-col justify-around lg:justify-between lg:gap-3'>
@@ -27,7 +27,7 @@ const FlightCards = ({ filteredData }) => {
             </div>
           </div>
         </div>
-        <div className=' lg:w-44'>
+        <div className='mt-5 lg:w-44'>
           <h4 className='my-2.5 lg:my-0'>Price: {card.price}$</h4>
           <span className='w-full h-[2px] my-3 bg-text hidden lg:block'></span>
           <button className='w-full py-2 text-sm rounded-lg bg-[#FF8C3E] hover:bg-hover  '><h3>Viev Deal</h3></button>

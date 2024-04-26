@@ -37,9 +37,7 @@ const Signup = () => {
     localStorage.setItem('user', JSON.stringify(values))
     localStorage.setItem('session', true)
     toast.success('Signed up successfully')
-    setTimeout(() => {
-      navigate('/')
-    }, 1000)
+    navigate('/')
   }
 
 

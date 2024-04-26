@@ -5,6 +5,7 @@ import HamburgerIconBlack from '../../public/assets/icons/Hamburger_LG_black.png
 import HamburgerIconwhite from '../../public/assets/icons/Hamburger_LG.png';
 import userICon from '../../public/assets/icons/User_01.png';
 import userIconWhite from '../../public/assets/icons/whiteUser.png';
+import { toast } from 'sonner';
 
 const Header = () => {
 
@@ -72,7 +73,7 @@ const Header = () => {
 
   const Signout = () => {
     localStorage.removeItem('session')
-    // window.location.reload()
+    toast.success('Signed out')
     setMenuVisible(false)
   }
 
