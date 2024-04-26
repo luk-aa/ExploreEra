@@ -1,8 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+ExploreEra is a comprehensive travel booking platform designed to simplify the process of planning and booking your next adventure. Whether you're a seasoned traveler or planning your first trip, ExploreEra provides all the tools and resources you need to explore the world with ease.
 
-Currently, two official plugins are available:
+👉 Live Demo: [Live Demo](https://van-life-new.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build with
+- React js
+- Tailwind CSS
+- Firebase / Firestore Database
+
+## What I learned from this project
+- learned Tailwind and used in this project. it helped me to write shorter and cleaner code.
+- I enhanced my knowledge in React js and JavaSript.
+- learned cool stuff like hide menu when scroll down and show when scroll up. faq accordion and so on.
+- Strengthened my knowledge in Flexbox and Grid.
+- learned Storing and managing application data using Firestore database.
+
+##
+![vanLifeImgs](https://github.com/luk-aa/vanLife-new/assets/86773254/39820b57-98b9-49fd-bf7b-1423d3a0e487)
+
