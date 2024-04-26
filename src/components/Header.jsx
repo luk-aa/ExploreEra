@@ -78,7 +78,7 @@ const Header = () => {
   }
 
   return (
-    <header className={` h-14 lg:py-4 w-full px-10 lg:px-[90px] flex justify-between 
+    <header className={` h-14 lg:py-4 w-full px-6 lg:px-[90px] flex justify-between 
     items-center fixed z-50 ${colorChange} ${visibility} duration-300`}>
       <Link
         to='/'

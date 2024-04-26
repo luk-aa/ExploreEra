@@ -9,7 +9,7 @@ const OurServices = () => {
   const linkStyles = ' w-full lg:w-auto lg:px-5 justify-center py-3  text-text font-medium text-xl text-center rounded-2xl hover:bg-primary hover:text-white duration-300'
 
   return (
-    <section className='mt-[70px] px-[45px] lg:mx-[45px] lg:mt-[110px]'>
+    <section className='mt-[70px] px-6 lg:mx-[45px] lg:mt-[110px]'>
       <nav
         className='flex justify-around lg:justify-start gap-3'
       >
