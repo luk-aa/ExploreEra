@@ -13,8 +13,9 @@ ExploreEra is a comprehensive travel booking platform designed to simplify the p
 
 ## What I learned from this project
 - I enhanced my knowledge in React js and JavaSript.
-- I have learned using shadcn/ui
-- Strengthened my knowledge in forms / User authentication
+- I have learned using shadcn/ui.
+- Strengthened my knowledge in forms / User authentication.
+- I have acquired the skill of filtering data using multiple filters.
 - Strengthened my knowledge in Flexbox and Grid.
 
 ##
