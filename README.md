@@ -1,3 +1,4 @@
+![ExploreEra](https://github.com/luk-aa/ExploreEra/assets/86773254/1ec16268-2b3e-4efc-9cbd-26f738f71e98)
 
 ## Description
 ExploreEra is a comprehensive travel booking platform designed to simplify the process of planning and booking your next adventure. Whether you're a seasoned traveler or planning your first trip, ExploreEra provides all the tools and resources you need to explore the world with ease.
