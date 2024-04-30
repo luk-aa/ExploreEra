@@ -135,8 +135,26 @@ const Header = () => {
                   <h4>Home</h4>
                 </NavLink>
               </li>
-              <li><h4>About Us</h4></li>
-              <li><h4>Blogs</h4></li>
+              <li>
+                <NavLink
+                  to='about'
+                  onClick={() => setMenuVisible(false)}
+                  className='hover:underline'
+                  style={({ isActive }) => isActive ? activeStyles : null}
+                >
+                  <h4>About Us</h4>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to='blogs'
+                  onClick={() => setMenuVisible(false)}
+                  className='hover:underline'
+                  style={({ isActive }) => isActive ? activeStyles : null}
+                >
+                  <h4>Blogs</h4>
+                </NavLink>
+              </li>
               <li>
                 <NavLink
                   to='/our-services'
@@ -178,8 +196,26 @@ const Header = () => {
               <h4>Home</h4>
             </NavLink>
           </li>
-          <li><h4>About Us</h4></li>
-          <li><h4>Blogs</h4></li>
+          <li>
+            <NavLink
+              to='about'
+              onClick={() => setMenuVisible(false)}
+              className='hover:underline'
+              style={({ isActive }) => isActive ? activeStyles : null}
+            >
+              <h4>About Us</h4>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to='blogs'
+              onClick={() => setMenuVisible(false)}
+              className='hover:underline'
+              style={({ isActive }) => isActive ? activeStyles : null}
+            >
+              <h4>Blogs</h4>
+            </NavLink>
+          </li>
           <li>
             <NavLink
               to='/our-services'
@@ -190,7 +226,16 @@ const Header = () => {
               <h4>Our Services</h4>
             </NavLink>
           </li>
-          <li><h4>Our Offers</h4></li>
+          <li>
+            <NavLink
+              to='offers'
+              onClick={() => setMenuVisible(false)}
+              className='hover:underline'
+              style={({ isActive }) => isActive ? activeStyles : null}
+            >
+              <h4>Our Offers</h4>
+            </NavLink>
+          </li>
           <li
             onClick={() => setMenuVisible(!menuVisible)}
             className='cursor-pointer'

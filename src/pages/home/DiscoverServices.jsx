@@ -33,14 +33,14 @@ const DiscoverServices = () => {
         selection, flight and accommodation bookings,
         and customized itineraries to individual preferences.
       </p>
-      <div className='my-3 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5'>
+      <div className='mt-3 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5'>
         {serviceCards}
       </div>
       <button
         onClick={changeCardsQuantity}
         className='text-primary underline hover:text-hover'
       >
-        {visible > 4 ? 'Show less' : 'See all'}
+        {visible > 4 ? 'Show less' : 'Show more'}
       </button>
     </section>
   )

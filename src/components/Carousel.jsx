@@ -6,27 +6,13 @@ import { FreeMode, Navigation } from 'swiper/modules'
 import 'swiper/css';
 import 'swiper/css/free-mode'
 
-import { carousel } from '../data';
+import { offers } from '../data';
 
 
 export default () => {
   const [slidesPerViev, SetSlidesPerViev] = React.useState(4)
-  // const [prods, setProds] = useState(carousel)
-  // const [error, setError] = React.useState()
-  // React.useEffect(() => {
-  //   async function loadProds() {
-  //     try {
-  //       const data = await carousel
-  //       setProds(data)
-  //     } catch (err) {
-  //       setError(err)
-  //     }
-  //   }
 
-  //   loadProds()
-  // }, [])
-
-  const productElements = carousel.map(prod => (
+  const productElements = offers.map(prod => (
     <SwiperSlide key={prod.id}>
       <Link to={`/categories/${prod.id}`} >
         <div key={prod.id}>

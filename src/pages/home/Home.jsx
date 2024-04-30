@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import DiscoverServices from './DiscoverServices'
 import Carousel from '../../components/Carousel'
-import Blogs from './Blogs'
+import Blogs from './HomeBlogs'
 import Book from './Book'
 
 const Home = () => {

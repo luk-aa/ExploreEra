@@ -1,5 +1,5 @@
 import React from 'react'
-import { blogs } from '../../data'
+import { blogs } from '@/data'
 
 const Blogs = () => {
 
@@ -11,9 +11,9 @@ const Blogs = () => {
   ))
 
   return (
-    <section className='m-[45px] mx-[90px]'>
+    <section className='mt-[70px] px-10 md:px-[70px] lg:px-[90px]'>
       <h2 className='mb-3'>Blogs</h2>
-      <div className='lg:grid lg:grid-cols-3 lg:gap-5'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-5'>
         {blogCards}
       </div>
     </section>

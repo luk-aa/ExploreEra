@@ -74,7 +74,7 @@ export const services = [
   },
 ];
 
-export const carousel = [
+export const offers = [
   {
     id: 1,
     image: "/assets/images/carouselImg.png",
@@ -150,22 +150,32 @@ export const blogs = [
   {
     id: 1,
     image: "/assets/images/image 61.png",
-    title: "Are There Volcanos In Hawaii?",
+    title: "Interestin Tibetian traditions",
   },
   {
     id: 2,
-    image: "/assets/images/image 61.png",
+    image: "/assets/images/image 62.png",
     title: "Are There Volcanos In Hawaii?",
   },
   {
     id: 3,
-    image: "/assets/images/image 61.png",
-    title: "Are There Volcanos In Hawaii?",
+    image: "/assets/images/image 63.png",
+    title: "Winter in iceland",
   },
   {
     id: 4,
     image: "/assets/images/image 61.png",
+    title: "Interestin Tibetian traditions",
+  },
+  {
+    id: 5,
+    image: "/assets/images/image 62.png",
     title: "Are There Volcanos In Hawaii?",
+  },
+  {
+    id: 6,
+    image: "/assets/images/image 63.png",
+    title: "Winter in iceland",
   },
 ];
 
