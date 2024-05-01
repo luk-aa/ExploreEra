@@ -9,7 +9,7 @@ import { flightCards } from '../../data';
 
 const FlightFilters = ({ setShowFilters, setFilteredData, showFilters }) => {
   const [checkboxes, setCheckboxes] = useState(null)
-  const [activeFilter, setActiveFilter] = useState('stops')
+  const [activeFilter, setActiveFilter] = useState(['stops'])
 
   //TAKE OFF TIME from FIRST and SECOND CITY
   const [times, setTimes] = useState([12, 24])
@@ -28,6 +28,7 @@ const FlightFilters = ({ setShowFilters, setFilteredData, showFilters }) => {
       }
     });
   };
+
 
 
   //

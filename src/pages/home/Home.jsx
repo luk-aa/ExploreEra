@@ -14,6 +14,7 @@ const Home = () => {
           <span className='font-medium lg:text-3xl'>Visit Mountains In</span>
           <h1 className='text-xl md:text-2xl lg:text-4xl text-white font-semibold tracking-widest'>ITALY</h1>
           <Link
+            to='offers'
             className='px-4 lg:px-6 py-2 lg:py-4 mt-2 mx-2 lg:text-xl block rounded-[10px]
            bg-primary font-medium hover:bg-hover duration-300'
           > See offer</Link>

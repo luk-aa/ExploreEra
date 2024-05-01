@@ -324,3 +324,187 @@ export const flightCards = [
     price: 300,
   },
 ];
+
+export const staysCards = [
+  {
+    id: 1,
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/edc100123egan-002-6500742f5feb7.jpg?crop=0.688xw:1.00xh;0.157xw,0&resize=1200:*",
+    name: "New Zealand Resort",
+    location: "New Zealand, Auckland",
+    distance: "1 km",
+    description:
+      "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms",
+    rate: 5,
+    price: 400,
+  },
+
+  {
+    id: 2,
+    image:
+      "https://www.bvitraveller.com/uploads/2019/09/st-bernards-hill-house-villa-aerial-view.jpg",
+    name: "Tropical Paradise Villa",
+    location: "Fiji, Nadi",
+    distance: "500 meters",
+    description:
+      "Luxurious villa with stunning ocean views. Features infinity pool, outdoor dining area, and private chef services.",
+    rate: 3,
+    price: 600,
+  },
+  {
+    id: 3,
+    image:
+      "https://a0.muscache.com/im/pictures/1530b810-0caf-41e2-a9de-85ed435c8b09.jpg?im_w=720",
+    name: "Mountain Chalet Retreat",
+    location: "Switzerland, Zermatt",
+    distance: "2 km",
+    description:
+      "Cozy chalet nestled in the Swiss Alps. Perfect for skiing holidays with direct access to slopes and hot tub for après-ski relaxation.",
+    rate: 1,
+    price: 700,
+  },
+  {
+    id: 4,
+    image:
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/42489378.jpg?k=181800d7ba3cc0ed925554e6f7b9c782a085237b6c027b49c615f174a98a3629&o=&hp=1",
+    name: "Beachfront Bungalow",
+    location: "Thailand, Phuket",
+    distance: "100 meters",
+    description:
+      "Traditional Thai bungalow steps away from the crystal-clear waters of Phuket. Enjoy breathtaking sunsets from your private veranda.",
+    rate: 4,
+    price: 300,
+  },
+  {
+    id: 5,
+    image:
+      "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1087259.jpg",
+    name: "Safari Lodge",
+    location: "Kenya, Masai Mara",
+    distance: "10 km",
+    description:
+      "Immerse yourself in the heart of the African savannah with this authentic safari lodge experience. Witness the Big Five in their natural habitat.",
+    rate: 4,
+    price: 800,
+  },
+  {
+    id: 6,
+    image:
+      "https://lovelystay-modern-loft-city-center.norteportugal-hotels.com/data/Photos/OriginalPhoto/3956/395635/395635782.JPEG",
+    name: "City Center Loft",
+    location: "USA, New York City",
+    distance: "0.5 km",
+    description:
+      "Chic loft apartment in the heart of Manhattan. Walking distance to Times Square, Broadway theaters, and top restaurants.",
+    rate: 2,
+    price: 500,
+  },
+  {
+    id: 7,
+    image:
+      "https://images.homhero.com.au/1280x0/545a6ef4-ab72-4031-ad40-962a9f0de2c2/listing/51/396cb451-ed60-4264-85a6-fed7eadc3dbe.jpg",
+    name: "Seaside Cottage",
+    location: "Australia, Sydney",
+    distance: "200 meters",
+    description:
+      "Quaint cottage overlooking Bondi Beach. Perfect for surf enthusiasts and beach lovers seeking a cozy retreat.",
+    rate: 3,
+    price: 350,
+  },
+  {
+    id: 8,
+    image:
+      "https://images.squarespace-cdn.com/content/v1/58487dc4b8a79b6d02499b60/1685970937385-BOZOYFXFEMOSZTI3YJ44/Francis%2BYork%2B16th%2BCentury%2BTuscan%2BVilla%2BBuilt%2Bby%2BRicasoli%2BHistoric%2BChianti%2BWine%2BFamily%2B%2B44.jpg?format=1000w",
+    name: "Historic Mansion",
+    location: "Italy, Tuscany",
+    distance: "5 km",
+    description:
+      "Opulent Renaissance-era mansion surrounded by vineyards and rolling hills. Ideal for wine tasting tours and cultural excursions.",
+    rate: 1,
+    price: 1000,
+  },
+  {
+    id: 9,
+    image:
+      "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_730/at%2Fhouse%20tours%2F2021-08%2FHouse%20calls%2Fsu_pang_cabin_1",
+    name: "Rustic Cabin",
+    location: "Canada, Banff",
+    distance: "3 km",
+    description:
+      "Quaint log cabin nestled in the Canadian Rockies. Enjoy hiking, fishing, and wildlife spotting in the nearby national park.",
+    rate: 4,
+    price: 250,
+  },
+  {
+    id: 10,
+    image:
+      "https://lh5.googleusercontent.com/vN2uoyrCXm2IktuDUYzFRl9cvH2SOXDvF4io2NdUqPQuUy_yeEJRXee-rDXR_r2Nhhh2g3xoPPHHPBX2y4HJnxj-MQRI6BfOdMRj4P2IDceeQGVnjhj1XTzA2Vto1Uwbt4QHbycOKLD_Fz6jGZdR-fI",
+    name: "Desert Oasis Retreat",
+    location: "United Arab Emirates, Dubai",
+    distance: "50 km",
+    description:
+      "Luxury desert villa with panoramic views of the Arabian Desert. Features a private pool, spa, and rooftop terrace for stargazing.",
+    rate: 5,
+    price: 1200,
+  },
+  {
+    id: 11,
+    image:
+      "https://hi-cdn.t-rp.co.uk/images/hotels/2044778/0?width=870&height=480&crop=false",
+    name: "Island Hideaway",
+    location: "Maldives, Male",
+    distance: "1 km",
+    description:
+      "Secluded overwater bungalow surrounded by turquoise lagoons. Indulge in spa treatments and gourmet dining with unparalleled ocean views.",
+    rate: 3,
+    price: 1500,
+  },
+  {
+    id: 12,
+    image:
+      "https://nt.global.ssl.fastly.net/binaries/content/gallery/website/holidays/library/herefordshire-worcestershire/old-mill-cottage/15oldmill-exterior-chrislacey9.jpg?auto=webp&width=767&crop=16:9&dpr=2%202x",
+    name: "Countryside Retreat",
+    location: "England, Cotswolds",
+    distance: "2 km",
+    description:
+      "Quaint cottage in the picturesque Cotswolds countryside. Perfect for romantic getaways and peaceful nature walks.",
+    rate: 2,
+    price: 300,
+  },
+  {
+    id: 13,
+    image:
+      "https://ca-times.brightspotcdn.com/dims4/default/10b8be4/2147483647/strip/true/crop/4953x3297+0+0/resize/1200x799!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F48%2Ffa%2F5a98669e438d9b4f47135b5afb04%2F8899-beverly-v3-fullres-34.jpg",
+    name: "Luxury Penthouse",
+    location: "Hong Kong, Central",
+    distance: "1 km",
+    description:
+      "Elegant penthouse apartment with breathtaking views of Victoria Harbour. Close to upscale shopping and dining districts.",
+    rate: 5,
+    price: 800,
+  },
+  {
+    id: 14,
+    image:
+      "https://assets.sunshine.co.uk/m/5391de1e4693c8d3/Small-hotelimages-eden-roc-3055542-1",
+    name: "Coastal Retreat",
+    location: "Spain, Costa Brava",
+    distance: "100 meters",
+    description:
+      "Modern beachfront villa overlooking the stunning Costa Brava coastline. Relax in the infinity pool and enjoy fresh seafood at nearby restaurants.",
+    rate: 4,
+    price: 400,
+  },
+  {
+    id: 15,
+    image:
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/84575908.jpg?k=f1a021d7f02804779c730140bdee3df050d4a302e5ec3ec39a52eede1421aaf6&o=&hp=1",
+    name: "Mountain Lodge",
+    location: "Canada, Whistler",
+    distance: "1 km",
+    description:
+      "Charming lodge nestled in the heart of Whistler Village. Ski-in/ski-out access and cozy fireplace for après-ski relaxation.",
+    rate: 1,
+    price: 600,
+  },
+];

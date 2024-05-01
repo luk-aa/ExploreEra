@@ -1,36 +1,20 @@
 import React from 'react'
-import DownVector from '../../../public/assets/icons/DownVector.png'
-import CloseIconSm from '../../../public/assets/icons/Close_SM.png'
-import PlusIcon from '../../../public/assets/icons/Add_Plus.png'
-import CaretDown from '../../../public/assets/icons/Caret_Down_MD.png'
-import CalendarIcon from '../../../public/assets/icons/Calendar_Days.png'
 
 import FlightCards from './FlightCards'
 import FlightFilters from './FlightFilters'
 import { flightCards } from '../../data'
 import DatePicker from '../../components/DatePicker'
-import DropdownSelectMenu from '@/components/DropdownSelectMenu'
 import SelectServices from '@/components/SelectServices'
+import { format } from "date-fns"
 
 
 const Flights = () => {
-  const [selectedDate, setSelectedDate] = React.useState(null)
+  const [date, setDate] = React.useState(null)
   const [searchResults, setSearchResults] = React.useState(false)
   const [showFilters, setShowFilters] = React.useState(false)
 
   const [filteredData, setFilteredData] = React.useState(flightCards)
-
-  const MyContainer = ({ className, children }) => {
-    return (
-      <div className='w-screen flex justify-center mt-4'>
-        <CalendarContainer className={className}>
-          <div>{children}</div>
-        </CalendarContainer>
-      </div>
-    );
-  }
-
-
+  const selectedDate = date ? format(date, "P") : "Pick a date"
   return (
     <section className='mt-6 mb-40'>
       <div className={`${searchResults ? 'hidden' : ''} lg:block`}>
@@ -39,19 +23,19 @@ const Flights = () => {
           <li className='flex items-center gap-1  '>
             <span>One-way</span>
             <span>
-              <img src={DownVector} alt="down-vector" />
+              <img src='/assets/icons/DownVector.png' alt="down-vector" />
             </span>
           </li>
           <li className='flex items-center gap-1 '>
             <span>1 Adult</span>
             <span>
-              <img src={DownVector} alt="down-vector" />
+              <img src='/assets/icons/DownVector.png' alt="down-vector" />
             </span>
           </li>
           <li className='flex items-center gap-1 '>
             <span>Economy</span>
             <span>
-              <img src={DownVector} alt="down-vector" />
+              <img src='/assets/icons/DownVector.png' alt="down-vector" />
             </span>
           </li>
         </ul>
@@ -59,19 +43,23 @@ const Flights = () => {
         <ul className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[1fr_1fr_1fr_0.5fr] gap-3 justify-items-stretch'>
           <li>
             <SelectServices
+              placeholder="City"
               direction="From"
               option={['Tbilisi']}
             />
           </li>
           <li>
             <SelectServices
+              placeholder="City"
               direction="To"
               option={['Paris']}
             />
           </li>
           <li>
-            {/* <Calendar /> */}
-            <DatePicker />
+            <DatePicker
+              date={date}
+              setDate={setDate}
+            />
           </li>
           <li
             onClick={() => setSearchResults(true)}
